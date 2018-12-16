@@ -15,17 +15,17 @@ using UnityEngine;
 public class ObjectOrientedProgramming : MonoBehaviour
 {
     [Header("My Game")] // Headers don't need semi-colons (btw, this was just something I was playing around with myself).
-
+    [Space(5)] // Space between the above and below statements (visible in 'GameObject' in the inspector).
     public string myGameIdea; // Because this is public, this will show in the inspector once you attach the script to a game object.
     
     void Start()
     {
-        PrintGame(); // Calling the PrintGame() function/method we created down the bottom.
+        //PrintGame(); // Calling the PrintGame() function/method we created down the bottom.
     }
     
     void Update()
     {
-
+        
     }
 
     public void PrintGame() // Functions/methods don't need semi-colons either.
